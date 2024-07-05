@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #262626;
+}
+
+nav {
+  background: #262626 url(https://images.vectorhq.com/images/previews/dae/blue-square-abstract-background-vector-illustration-art-535644.jpg);
+  background-size: cover;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #279ad4;
+  height: 50px;
+}
+
+.new, .login{
+  margin: 0 50px 20px 180px;
+  font-size: 15px;
+  border: 1px solid rgb(17, 14, 14);
+  width: 180px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+nav h1 {
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  font-size: 30px;
+}
+
+nav ul li a {
+  color: #262626;
+  text-decoration: none;
+}
+
+.ttl {
+  margin-left: 30%;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h2 {
+  color: #023047;
+  font-size: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  border-radius: 20px;
+}
+
+.tbl {
+  width: 650px;
+  box-shadow: 4px 4px gray;
+  border-radius: 20px;
+  margin-left: 15%;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #e0f7fa;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+.btn {
+  background-color: #fff;
+  color: black;
+  border: 1px solid lightgray;
+  margin-left: 35%;
+  cursor: pointer;
+  width: 250px;
+}
+
+.btn-back, .btn-edit, .btn-delete {
+  background-color: #fff;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  margin: 20px 100px 20px;
+}
+
+button:hover {
+  background-color: #36a4d0;
+}
+
+
+.show-page {
+  border: 1px solid #aad7e9;
+  background-color: #cfeaf4;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px rgb(159, 159, 159);
+  width: 650px;
+  margin: auto;
+  box-shadow: 5px 5px #279ad4;
+}
+
+.filter {
+  text-align: center;
+  padding: 10px;
+  justify-content: space-between;
+  color: #1d313b;
+}
+
+.total-amount {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.total-amount.green {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.total-amount.yellow {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.total-amount.red {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.shw {
+  text-align: center;
+  color: #279ad4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+form label {
+  margin-bottom: 1rem;
+  width: 50%;
+  text-align: center;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="number"] {
+  width: 50%; 
+  padding: 7px 7px;
+  margin-top: 0.5rem;
+}
+
+form button {
+  width: 180px;
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  align-items: center;
+  height: 30px;
+
+}
