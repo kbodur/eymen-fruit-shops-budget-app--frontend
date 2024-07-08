@@ -1,5 +1,5 @@
 # Eymen's Fruit Shop Budget App
-[img](./src/images/845758FA-A75E-4F01-8995-CF1948A0D0F5.jpeg)
+[./src/images/845758FA-A75E-4F01-8995-CF1948A0D0F5.jpeg]
 Eymen's Fruit Shop Budget App is a full-stack application that allows users to track financial transactions for a fruit shop. This app provides functionalities for creating, reading, updating, and deleting transactions, along with user authentication features.
 
 ## Features
