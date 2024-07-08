@@ -4,9 +4,10 @@ Eymen's Fruit Shop Budget App is a full-stack application that allows users to t
 
 <br/>
 <p align="center">
-    <img width="80%" src="./src/images/845758FA-A75E-4F01-8995-CF1948A0D0F5.jpeg">
+    <img width="80%" src="./src/images/first.jpeg">
 </p>
 <br/>
+
 ## Features
 
 -CRUD Operations: Create, Read, Update, Delete transactions.
@@ -21,8 +22,16 @@ Eymen's Fruit Shop Budget App is a full-stack application that allows users to t
 Frontend: React, react-router-dom
 Backend: RESTful API
 Styling: Basic CSS and optional integration with react-bootstrap
-
-
+<br/>
+<p align="center">
+    <img width="80%" src="./src/images/show.jpeg">
+</p>
+<br/>
+<br/>
+<p align="center">
+    <img width="80%" src="./src/images/add.jpeg">
+</p>
+<br/>
 ## Installation and Setup
 
 -Prerequisites
