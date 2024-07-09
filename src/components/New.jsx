@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Index from './Index';
 
 const New = () => {
     const navigate = useNavigate();
@@ -37,10 +38,13 @@ const New = () => {
             .then((data) => {
                 console.log('New transaction created:', data);
 
-                navigate('/transactions');
+                navigate('/transactions/');
+
             })
             .catch(error => console.error('Error creating transaction:', error));
     };
+
+
 
     return (
         <div className="new-transaction-page">

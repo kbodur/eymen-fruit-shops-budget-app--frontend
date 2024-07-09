@@ -40,7 +40,7 @@ const Index = () => {
     return (
         <div className="index-page">
             <h2 className={getTotalAmountClass(totalAmount)}>
-                Total Amount: {totalAmount.toFixed(2)}
+                Total Amount: ${totalAmount.toFixed(2)}
             </h2>
             <div className="filter-container">
                 <label htmlFor="filter">Filter by:</label>
