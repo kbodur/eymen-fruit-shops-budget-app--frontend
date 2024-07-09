@@ -37,7 +37,7 @@ const Show = () => {
 
     return (
         <div>
-            <h3>Total Amount: {totalAmount.toFixed(2)}</h3>
+            <h3>Total Amount: ${totalAmount.toFixed(2)}</h3>
             <h1 className='shw'>Show Item</h1>
             <div className="show-page">
                 <h2>Item_name: {transaction.item_name}</h2>
